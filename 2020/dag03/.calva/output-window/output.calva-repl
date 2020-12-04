@@ -1,0 +1,3521 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::dag03.core=> 
+
+; Jack-in done.
+clj::dag03.core=> 
+"Elapsed time: 0.3799 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 1.2967 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 4.8179 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.1105 msecs"
+(\u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ \u
+ ...)
+clj::dag03.core=> 
+"Elapsed time: 0.174 msecs"
+(\c
+ \ø
+ \z
+ \p
+ \t
+ \i
+ \ø
+ \e
+ \h
+ \k
+ \l
+ \x
+ \b
+ \s
+ \y
+ \m
+ \j
+ \z
+ \q
+ \p
+ \y
+ \r
+ \a
+ \e
+ \å
+ \a
+ \x
+ \g
+ \s
+ \x
+ \w
+ \l
+ \y
+ \y
+ \g
+ \w
+ \k
+ \o
+ \b
+ \y
+ \t
+ \h
+ \ø
+ \t
+ \c
+ \f
+ \æ
+ \q
+ \z
+ \l
+ ...)
+clj::dag03.core=> 
+"Elapsed time: 0.3005 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 5.203 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 5.03 msecs"
+clojure.lang.LazySeq
+clj::dag03.core=> 
+{\a
+ ({:x 900, :y 999}
+  {:x 885, :y 999}
+  {:x 873, :y 999}
+  {:x 870, :y 999}
+  {:x 818, :y 999}
+  {:x 783, :y 999}
+  {:x 728, :y 999}
+  {:x 691, :y 999}
+  {:x 682, :y 999}
+  {:x 656, :y 999}
+  {:x 644, :y 999}
+  {:x 605, :y 999}
+  {:x 574, :y 999}
+  {:x 540, :y 999}
+  {:x 477, :y 999}
+  {:x 453, :y 999}
+  {:x 447, :y 999}
+  {:x 407, :y 999}
+  {:x 403, :y 999}
+  {:x 378, :y 999}
+  {:x 344, :y 999}
+  {:x 309, :y 999}
+  {:x 280, :y 999}
+  {:x 269, :y 999}
+  {:x 214, :y 999}
+  {:x 213, :y 999}
+  {:x 204, :y 999}
+  {:x 193, :y 999}
+  {:x 159, :y 999}
+  {:x 152, :y 999}
+  {:x 129, :y 999}
+  {:x 112, :y 999}
+  {:x 93, :y 999}
+  {:x 71, :y 999}
+  {:x 44, :y 999}
+  {:x 985, :y 998}
+  {:x 978, :y 998}
+  {:x 960, :y 998}
+  {:x 953, :y 998}
+  {:x 939, :y 998}
+  {:x 899, :y 998}
+  {:x 852, :y 998}
+  {:x 824, :y 998}
+  {:x 821, :y 998}
+  {:x 794, :y 998}
+  {:x 789, :y 998}
+  {:x 774, :y 998}
+  {:x 773, :y 998}
+  {:x 748, :y 998}
+  {:x 744, :y 998}
+  ...),
+ \b
+ ({:x 986, :y 999}
+  {:x 976, :y 999}
+  {:x 975, :y 999}
+  {:x 963, :y 999}
+  {:x 945, :y 999}
+  {:x 920, :y 999}
+  {:x 847, :y 999}
+  {:x 828, :y 999}
+  {:x 825, :y 999}
+  {:x 815, :y 999}
+  {:x 737, :y 999}
+  {:x 731, :y 999}
+  {:x 720, :y 999}
+  {:x 714, :y 999}
+  {:x 686, :y 999}
+  {:x 663, :y 999}
+  {:x 606, :y 999}
+  {:x 603, :y 999}
+  {:x 589, :y 999}
+  {:x 585, :y 999}
+  {:x 496, :y 999}
+  {:x 491, :y 999}
+  {:x 490, :y 999}
+  {:x 482, :y 999}
+  {:x 414, :y 999}
+  {:x 357, :y 999}
+  {:x 345, :y 999}
+  {:x 325, :y 999}
+  {:x 308, :y 999}
+  {:x 279, :y 999}
+  {:x 232, :y 999}
+  {:x 224, :y 999}
+  {:x 143, :y 999}
+  {:x 141, :y 999}
+  {:x 114, :y 999}
+  {:x 70, :y 999}
+  {:x 64, :y 999}
+  {:x 38, :y 999}
+  {:x 971, :y 998}
+  {:x 871, :y 998}
+  {:x 854, :y 998}
+  {:x 843, :y 998}
+  {:x 832, :y 998}
+  {:x 830, :y 998}
+  {:x 820, :y 998}
+  {:x 816, :y 998}
+  {:x 790, :y 998}
+  {:x 784, :y 998}
+  {:x 753, :y 998}
+  {:x 733, :y 998}
+  ...),
+ \c
+ ({:x 987, :y 999}
+  {:x 917, :y 999}
+  {:x 905, :y 999}
+  {:x 848, :y 999}
+  {:x 745, :y 999}
+  {:x 739, :y 999}
+  {:x 706, :y 999}
+  {:x 654, :y 999}
+  {:x 643, :y 999}
+  {:x 629, :y 999}
+  {:x 600, :y 999}
+  {:x 597, :y 999}
+  {:x 545, :y 999}
+  {:x 456, :y 999}
+  {:x 422, :y 999}
+  {:x 421, :y 999}
+  {:x 402, :y 999}
+  {:x 334, :y 999}
+  {:x 264, :y 999}
+  {:x 254, :y 999}
+  {:x 249, :y 999}
+  {:x 219, :y 999}
+  {:x 216, :y 999}
+  {:x 163, :y 999}
+  {:x 151, :y 999}
+  {:x 125, :y 999}
+  {:x 941, :y 998}
+  {:x 890, :y 998}
+  {:x 878, :y 998}
+  {:x 807, :y 998}
+  {:x 795, :y 998}
+  {:x 776, :y 998}
+  {:x 736, :y 998}
+  {:x 690, :y 998}
+  {:x 675, :y 998}
+  {:x 593, :y 998}
+  {:x 580, :y 998}
+  {:x 550, :y 998}
+  {:x 547, :y 998}
+  {:x 530, :y 998}
+  {:x 515, :y 998}
+  {:x 447, :y 998}
+  {:x 444, :y 998}
+  {:x 396, :y 998}
+  {:x 354, :y 998}
+  {:x 344, :y 998}
+  {:x 270, :y 998}
+  {:x 240, :y 998}
+  {:x 214, :y 998}
+  {:x 124, :y 998}
+  ...),
+ \d
+ ({:x 959, :y 999}
+  {:x 939, :y 999}
+  {:x 932, :y 999}
+  {:x 930, :y 999}
+  {:x 907, :y 999}
+  {:x 881, :y 999}
+  {:x 812, :y 999}
+  {:x 798, :y 999}
+  {:x 782, :y 999}
+  {:x 675, :y 999}
+  {:x 665, :y 999}
+  {:x 650, :y 999}
+  {:x 633, :y 999}
+  {:x 617, :y 999}
+  {:x 555, :y 999}
+  {:x 468, :y 999}
+  {:x 465, :y 999}
+  {:x 405, :y 999}
+  {:x 384, :y 999}
+  {:x 370, :y 999}
+  {:x 366, :y 999}
+  {:x 363, :y 999}
+  {:x 341, :y 999}
+  {:x 313, :y 999}
+  {:x 304, :y 999}
+  {:x 288, :y 999}
+  {:x 281, :y 999}
+  {:x 257, :y 999}
+  {:x 251, :y 999}
+  {:x 242, :y 999}
+  {:x 186, :y 999}
+  {:x 153, :y 999}
+  {:x 120, :y 999}
+  {:x 108, :y 999}
+  {:x 99, :y 999}
+  {:x 95, :y 999}
+  {:x 81, :y 999}
+  {:x 41, :y 999}
+  {:x 994, :y 998}
+  {:x 991, :y 998}
+  {:x 990, :y 998}
+  {:x 981, :y 998}
+  {:x 968, :y 998}
+  {:x 944, :y 998}
+  {:x 928, :y 998}
+  {:x 916, :y 998}
+  {:x 837, :y 998}
+  {:x 835, :y 998}
+  {:x 834, :y 998}
+  {:x 823, :y 998}
+  ...)}
+clj::dag03.core=> 
+"Elapsed time: 221.9203 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 225.4573 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 322.0113 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 256.816 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 275.9913 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 302.8201 msecs"
+nil
+clj::dag03.core=> 
+; Syntax error compiling at (core.clj:130:16).
+; Unable to resolve symbol: words in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6118)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7173)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+; Execution error (ClassCastException) at dag03.core/eval29434 (form-init790191329321827554.clj:130).
+; class dag03.core$make_word_idx cannot be cast to class java.lang.Number (dag03.core$make_word_idx is in unnamed module of loader clojure.lang.DynamicClassLoader @77ee25f1; java.lang.Number is in module java.base of loader 'bootstrap')
+clojure.lang.Numbers/isPos (Numbers.java:121)
+clojure.core/dorun (core.clj:3145)
+clojure.core/doall (core.clj:3148)
+dag03.core/eval29434 (form-init790191329321827554.clj:130)
+dag03.core/eval29434 (form-init790191329321827554.clj:129)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+; Execution error (ArityException) at dag03.core/eval29568 (form-init790191329321827554.clj:130).
+; Wrong number of args (0) passed to: clojure.lang.PersistentHashMap
+dag03.core/eval29568 (form-init790191329321827554.clj:130)
+dag03.core/eval29568 (form-init790191329321827554.clj:129)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+"Elapsed time: 0.0644 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 3.0706 msecs"
+nil
+clj::dag03.core=> 
+true
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+; Syntax error compiling at (core.clj:129:18).
+; Unable to resolve symbol: words in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7173)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+"Elapsed time: 0.2528 msecs"
+"Elapsed time: 0.0134 msecs"
+"Elapsed time: 0.0061 msecs"
+"Elapsed time: 0.0054 msecs"
+(((("adventskalender" {:x 767, :y 566} {:x 1, :y 1})))
+ ((("akevitt" {:x 486, :y 292} {:x 1, :y 0})))
+ ((("grevinne" {:x 703, :y 540} {:x 0, :y 1})))
+ ((("gløggkos" {:x 501, :y 220} {:x 1, :y 1})))
+ ((("hovmester" {:x 356, :y 873} {:x 0, :y 1})))"Elapsed time: 0.0134 msecs"
+
+ ((("jesusbarnet" {:x 865, :y 734} {:x -1, :y 0})))
+ ((("julestjerne" {:x 798, :y 657} {:x 1, :y 0})))
+ ((("juletre" {:x 690, :y 476} {:x 1, :y -1})))
+ ((("julestrømpe" {:x 439, :y 192} {:x -1, :y -1})))"Elapsed time: 0.0132 msecs"
+
+ ((("klementin" {:x 762, :y 369} {:x 1, :y -1})))
+ ((("krampus" {:x 135, :y 113} {:x 0, :y -1})))"Elapsed time: 0.011 msecs"
+
+ ((("lutefisk" {:x 187, :y 495} {:x 0, :y -1})))"Elapsed time: 0.0125 msecs"
+
+ ((("mandel" {:x 355, :y 581} {:x 1, :y 0})))
+ ((("medisterkake" {:x 866, :y 290} {:x 0, :y -1})))"Elapsed time: 0.0126 msecs"
+
+ ((("nisseverksted" {:x 480, :y 390} {:x 1, :y -1})))
+ ((("nordpolen" {:x 707, :y 341} {:x -1, :y 0})))
+ ((("nellik" {:x 880, :y 187} {:x -1, :y 0})))"Elapsed time: 0.0132 msecs"
+
+ ((("pepperkake" {:x 858, :y 252} {:x -1, :y -1})))"Elapsed time: 0.0129 msecs"
+
+ ((("rudolf" {:x 262, :y 607} {:x -1, :y -1})))
+ ((("sledespor" {:x 160, :y 836} {:x 0, :y 1})))
+ ((("sølvgutt" {:x 124, :y 524} {:x -1, :y 1})))
+ ((("svineribbe" {:x 299, :y 498} {:x 1, :y 1}))))
+clj::dag03.core=> 
+; Syntax error (ArityException) compiling at (core.clj:133:13).
+; Wrong number of args (3) passed to: clojure.core/for
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7114)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7173)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+a"Elapsed time: 890.1617 msecs"
+g"Elapsed time: 881.2175 msecs"
+h"Elapsed time: 443.7074 msecs"
+j"Elapsed time: 1426.6521 msecs"
+(((("adventskalender" {:x 767, :y 566} {:x 1, :y 1})))
+ ((("akevitt" {:x 486, :y 292} {:x 1, :y 0})))
+ ((("grevinne" {:x 703, :y 540} {:x 0, :y 1})))
+ ((("gløggkos" {:x 501, :y 220} {:x 1, :y 1})))
+ ((("hovmester" {:x 356, :y 873} {:x 0, :y 1})))k"Elapsed time: 854.7578 msecs"
+
+ ((("jesusbarnet" {:x 865, :y 734} {:x -1, :y 0})))
+ ((("julestjerne" {:x 798, :y 657} {:x 1, :y 0})))
+ ((("juletre" {:x 690, :y 476} {:x 1, :y -1})))
+ ((("julestrømpe" {:x 439, :y 192} {:x -1, :y -1})))l"Elapsed time: 330.2657 msecs"
+
+ ((("klementin" {:x 762, :y 369} {:x 1, :y -1})))
+ ((("krampus" {:x 135, :y 113} {:x 0, :y -1})))m"Elapsed time: 892.3091 msecs"
+
+ ((("lutefisk" {:x 187, :y 495} {:x 0, :y -1})))n"Elapsed time: 878.7653 msecs"
+
+ ((("mandel" {:x 355, :y 581} {:x 1, :y 0})))
+ ((("medisterkake" {:x 866, :y 290} {:x 0, :y -1})))p"Elapsed time: 601.1882 msecs"
+
+ ((("nisseverksted" {:x 480, :y 390} {:x 1, :y -1})))
+ ((("nordpolen" {:x 707, :y 341} {:x -1, :y 0})))
+ ((("nellik" {:x 880, :y 187} {:x -1, :y 0})))r"Elapsed time: 297.5303 msecs"
+
+ ((("pepperkake" {:x 858, :y 252} {:x -1, :y -1})))s"Elapsed time: 947.1094 msecs"
+
+ ((("rudolf" {:x 262, :y 607} {:x -1, :y -1})))
+ ((("sledespor" {:x 160, :y 836} {:x 0, :y 1})))
+ ((("sølvgutt" {:x 124, :y 524} {:x -1, :y 1})))
+ ((("svineribbe" {:x 299, :y 498} {:x 1, :y 1}))))
+clj::dag03.core=> 
+(((("julestjerne" {:x 798, :y 657} {:x 1, :y 0}))))
+clj::dag03.core=> 
+"Elapsed time: 0.028 msecs"
+(((("julestjerne" {:x 798, :y 657} {:x 1, :y 0}))))
+clj::dag03.core=> 
+"Elapsed time: 0.1087 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.1833 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.1627 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.3966 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 2.2683 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 17.1874 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 8077.2624 msecs"
+; Execution error (IllegalArgumentException) at dag03.core/eval47401$iter$fn$fn (form-init790191329321827554.clj:150).
+; contains? not supported on type: clojure.lang.LazySeq
+clojure.lang.RT/contains (RT.java:849)
+clojure.core/contains? (core.clj:1492)
+clojure.core/contains? (core.clj:1484)
+dag03.core/eval47401 (form-init790191329321827554.clj:150)
+dag03.core/eval47401 (form-init790191329321827554.clj:149)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.core/seq (core.clj:137)
+clojure.core/sort (core.clj:3113)
+dag03.core/eval47401 (form-init790191329321827554.clj:149)
+dag03.core/eval47401 (form-init790191329321827554.clj:145)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+"Elapsed time: 8082.7655 msecs"
+; Execution error (IllegalArgumentException) at dag03.core/eval47453$iter$fn$fn (form-init790191329321827554.clj:150).
+; contains? not supported on type: clojure.lang.LazySeq
+clojure.lang.RT/contains (RT.java:849)
+clojure.core/contains? (core.clj:1492)
+clojure.core/contains? (core.clj:1484)
+dag03.core/eval47453 (form-init790191329321827554.clj:150)
+dag03.core/eval47453 (form-init790191329321827554.clj:149)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.core/seq (core.clj:137)
+clojure.core/sort (core.clj:3113)
+dag03.core/eval47453 (form-init790191329321827554.clj:149)
+dag03.core/eval47453 (form-init790191329321827554.clj:145)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+"Elapsed time: 7827.5781 msecs"
+; Execution error (IllegalArgumentException) at dag03.core/eval47517$iter$fn$fn (form-init790191329321827554.clj:150).
+; contains? not supported on type: clojure.lang.Cons
+clojure.lang.RT/contains (RT.java:849)
+clojure.core/contains? (core.clj:1492)
+clojure.core/contains? (core.clj:1484)
+dag03.core/eval47517 (form-init790191329321827554.clj:150)
+dag03.core/eval47517 (form-init790191329321827554.clj:149)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.core/seq (core.clj:137)
+clojure.core/sort (core.clj:3113)
+dag03.core/eval47517 (form-init790191329321827554.clj:149)
+dag03.core/eval47517 (form-init790191329321827554.clj:145)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+"Elapsed time: 7945.1456 msecs"
+("askepott" "marsipangris" "pinnekjøtt")
+clj::dag03.core=> 
+"Elapsed time: 0.175 msecs"
+(((("jesusbarnet" {:x 865, :y 734} {:x -1, :y 0})))
+ ((("julestjerne" {:x 798, :y 657} {:x 1, :y 0})))
+ ((("juletre" {:x 690, :y 476} {:x 1, :y -1})))
+ ((("julestrømpe" {:x 439, :y 192} {:x -1, :y -1}))))
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+true
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+"Elapsed time: 0.0698 msecs"
+"Elapsed time: 0.0045 msecs"
+"Elapsed time: 371.48 msecs"
+"Elapsed time: 1165.9259 msecs"
+"Elapsed time: 1100.2873 msecs"
+"Elapsed time: 631.4632 msecs"
+"Elapsed time: 1502.864 msecs"
+"Elapsed time: 736.0187 msecs"
+"Elapsed time: 413.3327 msecs"
+"Elapsed time: 1176.1605 msecs"
+"Elapsed time: 1189.9966 msecs"
+"Elapsed time: 794.1182 msecs"
+"Elapsed time: 726.866 msecs"
+"Elapsed time: 1124.7555 msecs"
+"Elapsed time: 10939.9553 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.1757 msecs"
+(((("jesusbarnet" {:x 865, :y 734} {:x -1, :y 0})))
+ ((("julestjerne" {:x 798, :y 657} {:x 1, :y 0})))
+ ((("juletre" {:x 690, :y 476} {:x 1, :y -1})))
+ ((("julestrømpe" {:x 439, :y 192} {:x -1, :y -1}))))
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+"Elapsed time: 0.0682 msecs"
+"Elapsed time: 0.004 msecs"
+"Elapsed time: 355.2736 msecs"
+a"Elapsed time: 1065.091 msecs"
+g"Elapsed time: 772.719 msecs"
+h"Elapsed time: 410.0651 msecs"
+j"Elapsed time: 1428.6811 msecs"
+k"Elapsed time: 752.9607 msecs"
+l"Elapsed time: 429.169 msecs"
+m"Elapsed time: 1084.8041 msecs"
+n"Elapsed time: 1417.8785 msecs"
+p"Elapsed time: 720.7738 msecs"
+r"Elapsed time: 403.4119 msecs"
+s"Elapsed time: 1086.2399 msecs"
+"Elapsed time: 9934.4813 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 294.9851 msecs"
+nil
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+"Elapsed time: 274.2144 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.1025 msecs"
+"Elapsed time: 0.0041 msecs"
+"Elapsed time: 432.0662 msecs"
+a"Elapsed time: 1224.1848 msecs"
+g"Elapsed time: 783.6731 msecs"
+h"Elapsed time: 414.6945 msecs"
+j"Elapsed time: 1797.3639 msecs"
+k"Elapsed time: 827.2497 msecs"
+l"Elapsed time: 414.8647 msecs"
+m"Elapsed time: 1211.1043 msecs"
+n"Elapsed time: 1656.1682 msecs"
+p"Elapsed time: 1155.5215 msecs"
+r"Elapsed time: 531.0017 msecs"
+s"Elapsed time: 1309.6518 msecs"
+"Elapsed time: 11765.8995 msecs"
+nil
+clj::dag03.core=> 
+#'dag03.alternativ/s
+clj::dag03.alternativ=> 
+#'dag03.alternativ/lines
+clj::dag03.alternativ=> 
+; Syntax error (FileNotFoundException) compiling at (form-init790191329321827554.clj:7:39).
+; wordlist.txt (No such file or directory)
+clojure.lang.Compiler$InvokeExpr/eval (Compiler.java:3707)
+clojure.lang.Compiler$DefExpr/eval (Compiler.java:457)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.alternativ=> 
+#'dag03.alternativ/dict
+clj::dag03.alternativ=> 
+#'dag03.alternativ/lc
+clj::dag03.alternativ=> 
+#'dag03.alternativ/va
+clj::dag03.alternativ=> va
+[[\æ
+  \p
+  \c
+  \q
+  \m
+  \s
+  \e
+  \h
+  \n
+  \f
+  \z
+  \s
+  \c
+  \b
+  \z
+  \p
+  \s
+  \ø
+  \z
+  \ø
+  \r
+  \a
+  \m
+  \w
+  \æ
+  \t
+  \a
+  \j
+  \i
+  \z
+  \w
+  \c
+  \d
+  \w
+  \g
+  \t
+  \a
+  \w
+  \v
+  \l
+  \å
+  \c
+  \c
+  \g
+  \f
+  \w
+  \v
+  \x
+  \s
+  \i
+  ...]
+ [\k
+  \ø
+  \h
+  \h
+  \å
+  \x
+  \ø
+  \t
+  \j
+  \x
+  \e
+  \w
+  \v
+  \å
+  \w
+  \k
+  \f
+  \a
+  \k
+  \t
+  \å
+  \a
+  \p
+  \g
+  \q
+  \d
+  \b
+  \b
+  \l
+  \æ
+  \r
+  \c
+  \e
+  \e
+  \i
+  \s
+  \h
+  \k
+  \t
+  \e
+  \j
+  \q
+  \x
+  \o
+  \p
+  \r
+  \b
+  \æ
+  \m
+  \i
+  ...]
+ [\i
+  \b
+  \u
+  \m
+  \v
+  \p
+  \y
+  \æ
+  \p
+  \g
+  \j
+  \r
+  \t
+  \w
+  \g
+  \å
+  \s
+  \m
+  \y
+  \z
+  \j
+  \e
+  \p
+  \d
+  \e
+  \r
+  \k
+  \å
+  \t
+  \o
+  \o
+  \b
+  \c
+  \h
+  \p
+  \j
+  \y
+  \u
+  \y
+  \z
+  \æ
+  \f
+  \z
+  \å
+  \w
+  \m
+  \ø
+  \y
+  \b
+  \n
+  ...]
+ [\n
+  \x
+  \w
+  \d
+  \r
+  \b
+  \s
+  \m
+  \v
+  \a
+  \m
+  \t
+  \i
+  \w
+  \t
+  \s
+  \x
+  \c
+  \k
+  \l
+  \t
+  \a
+  \z
+  \x
+  \z
+  \d
+  \g
+  \u
+  \z
+  \v
+  \j
+  \b
+  \u
+  \w
+  \h
+  \w
+  \j
+  \e
+  \z
+  \g
+  \m
+  \t
+  \e
+  \s
+  \u
+  \å
+  \x
+  \k
+  \w
+  \y
+  ...]
+ [\e
+  \ø
+  \f
+  \æ
+  \a
+  \v
+  \k
+  \h
+  \x
+  \h
+  \æ
+  \w
+  \i
+  \m
+  \h
+  \u
+  \u
+  \i
+  \d
+  \s
+  \e
+  \z
+  \ø
+  \g
+  \m
+  \r
+  \æ
+  \q
+  \z
+  \c
+  \t
+  \v
+  \w
+  \q
+  \w
+  \b
+  \a
+  \e
+  \w
+  \r
+  \c
+  \u
+  \i
+  \g
+  \r
+  \m
+  \s
+  \n
+  \s
+  \c
+  ...]
+ [\ø
+  \u
+  \n
+  \å
+  \å
+  \s
+  \ø
+  \e
+  \q
+  \n
+  \f
+  \r
+  \c
+  \h
+  \æ
+  \w
+  \a
+  \c
+  \i
+  \w
+  \g
+  \g
+  \a
+  \p
+  \b
+  \w
+  \f
+  \æ
+  \l
+  \l
+  \w
+  \l
+  \r
+  \u
+  \l
+  \i
+  \a
+  \d
+  \y
+  \a
+  \d
+  \s
+  \u
+  \v
+  \å
+  \c
+  \j
+  \d
+  \n
+  \u
+  ...]
+ [\m
+  \p
+  \y
+  \j
+  \h
+  \g
+  \r
+  \x
+  \y
+  \u
+  \y
+  \å
+  \i
+  \æ
+  \l
+  \j
+  \n
+  \e
+  \z
+  \o
+  \f
+  \s
+  \f
+  \g
+  \x
+  \l
+  \v
+  \p
+  \p
+  \f
+  \m
+  \e
+  \o
+  \r
+  \h
+  \ø
+  \g
+  \s
+  \f
+  \y
+  \e
+  \w
+  \f
+  \e
+  \k
+  \z
+  \ø
+  \c
+  \p
+  \q
+  ...]
+ [\g
+  \v
+  \v
+  \s
+  \x
+  \z
+  \k
+  \w
+  \g
+  \e
+  \b
+  \t
+  \n
+  \k
+  \s
+  \m
+  \ø
+  \y
+  \a
+  \u
+  \d
+  \q
+  \s
+  \a
+  \p
+  \x
+  \z
+  \s
+  \r
+  \b
+  \d
+  \w
+  \t
+  \c
+  \v
+  \g
+  \g
+  \m
+  \j
+  \a
+  \m
+  \e
+  \h
+  \o
+  \u
+  \x
+  \n
+  \o
+  \x
+  \i
+  ...]
+ [\n
+  \y
+  \d
+  \d
+  \ø
+  \l
+  \v
+  \r
+  \w
+  \c
+  \k
+  \r
+  \m
+  \z
+  \b
+  \j
+  \k
+  \j
+  \j
+  \s
+  \q
+  \b
+  \ø
+  \å
+  \s
+  \p
+  \o
+  \n
+  \j
+  \d
+  \i
+  \f
+  \å
+  \p
+  \y
+  \h
+  \x
+  \n
+  \x
+  \j
+  \r
+  \s
+  \f
+  \t
+  \n
+  \v
+  \b
+  \t
+  \c
+  \p
+  ...]
+ [\b
+  \z
+  \g
+  \f
+  \l
+  \j
+  \q
+  \c
+  \q
+  \b
+  \t
+  \f
+  \y
+  \j
+  \v
+  \j
+  \t
+  \å
+  \w
+  \t
+  \m
+  \å
+  \h
+  \y
+  \k
+  \c
+  \e
+  \å
+  \g
+  \å
+  \n
+  \l
+  \v
+  \j
+  \c
+  \e
+  \b
+  \j
+  \v
+  \b
+  \n
+  \c
+  \c
+  \e
+  \i
+  \æ
+  \u
+  \x
+  \e
+  \n
+  ...]
+ [\k
+  \g
+  \o
+  \d
+  \ø
+  \r
+  \r
+  \l
+  \æ
+  \g
+  \b
+  \å
+  \f
+  \æ
+  \x
+  \p
+  \r
+  \æ
+  \d
+  \i
+  \q
+  \g
+  \y
+  \f
+  \s
+  \s
+  \x
+  \u
+  \a
+  \y
+  \å
+  \b
+  \p
+  \æ
+  \f
+  \f
+  \c
+  \l
+  \q
+  \q
+  \r
+  \j
+  \n
+  \c
+  \c
+  \v
+  \æ
+  \y
+  \r
+  \b
+  ...]
+ [\d
+  \k
+  \a
+  \n
+  \n
+  \å
+  \z
+  \m
+  \a
+  \f
+  \g
+  \f
+  \k
+  \a
+  \å
+  \s
+  \q
+  \w
+  \ø
+  \a
+  \e
+  \v
+  \o
+  \g
+  \t
+  \æ
+  \f
+  \g
+  \å
+  \j
+  \c
+  \n
+  \æ
+  \x
+  \p
+  \l
+  \f
+  \m
+  \f
+  \a
+  \k
+  \k
+  \e
+  \e
+  \a
+  \e
+  \d
+  \n
+  \m
+  \x
+  ...]
+ [\a
+  \æ
+  \i
+  \b
+  \q
+  \i
+  \z
+  \c
+  \s
+  \l
+  \æ
+  \e
+  \b
+  \t
+  \æ
+  \å
+  \d
+  \ø
+  \z
+  \y
+  \t
+  \x
+  \b
+  \u
+  \z
+  \i
+  \c
+  \b
+  \x
+  \v
+  \j
+  \i
+  \k
+  \s
+  \t
+  \j
+  \i
+  \æ
+  \s
+  \ø
+  \å
+  \r
+  \g
+  \p
+  \v
+  \a
+  \f
+  \b
+  \v
+  \i
+  ...]
+ [\m
+  \b
+  \i
+  \f
+  \t
+  \f
+  \æ
+  \t
+  \o
+  \d
+  \b
+  \b
+  \o
+  \b
+  \h
+  \å
+  \x
+  \l
+  \g
+  \æ
+  \f
+  \a
+  \q
+  \k
+  \z
+  \g
+  \t
+  \å
+  \k
+  \e
+  \u
+  \p
+  \f
+  \å
+  \i
+  \ø
+  \l
+  \o
+  \w
+  \å
+  \å
+  \å
+  \a
+  \g
+  \t
+  \j
+  \s
+  \b
+  \z
+  \u
+  ...]
+ [\h
+  \v
+  \f
+  \q
+  \z
+  \h
+  \t
+  \l
+  \n
+  \m
+  \m
+  \l
+  \z
+  \e
+  \m
+  \k
+  \ø
+  \o
+  \r
+  \x
+  \b
+  \i
+  \m
+  \e
+  \m
+  \t
+  \r
+  \y
+  \x
+  \k
+  \a
+  \u
+  \o
+  \m
+  \j
+  \v
+  \e
+  \a
+  \ø
+  \t
+  \q
+  \å
+  \t
+  \b
+  \d
+  \t
+  \b
+  \b
+  \u
+  \d
+  ...]
+ [\p
+  \x
+  \y
+  \t
+  \x
+  \w
+  \k
+  \m
+  \p
+  \y
+  \b
+  \t
+  \o
+  \z
+  \u
+  \æ
+  \c
+  \j
+  \ø
+  \y
+  \p
+  \ø
+  \c
+  \g
+  \r
+  \w
+  \y
+  \j
+  \a
+  \l
+  \ø
+  \j
+  \r
+  \a
+  \a
+  \a
+  \h
+  \f
+  \n
+  \h
+  \k
+  \j
+  \y
+  \e
+  \æ
+  \l
+  \k
+  \p
+  \v
+  \s
+  ...]
+ [\c
+  \q
+  \x
+  \k
+  \c
+  \f
+  \p
+  \r
+  \p
+  \b
+  \n
+  \f
+  \s
+  \y
+  \i
+  \b
+  \v
+  \t
+  \b
+  \y
+  \å
+  \l
+  \ø
+  \y
+  \p
+  \o
+  \k
+  \v
+  \z
+  \x
+  \e
+  \b
+  \w
+  \c
+  \k
+  \f
+  \a
+  \u
+  \j
+  \p
+  \w
+  \s
+  \n
+  \y
+  \ø
+  \t
+  \ø
+  \c
+  \h
+  \d
+  ...]
+ [\g
+  \i
+  \t
+  \s
+  \p
+  \d
+  \b
+  \o
+  \h
+  \d
+  \a
+  \g
+  \a
+  \c
+  \u
+  \p
+  \d
+  \ø
+  \s
+  \c
+  \b
+  \c
+  \b
+  \w
+  \y
+  \m
+  \x
+  \g
+  \i
+  \k
+  \f
+  \e
+  \w
+  \i
+  \b
+  \w
+  \o
+  \b
+  \æ
+  \q
+  \m
+  \k
+  \f
+  \n
+  \w
+  \p
+  \ø
+  \o
+  \h
+  \i
+  ...]
+ [\w
+  \b
+  \z
+  \q
+  \q
+  \r
+  \æ
+  \v
+  \y
+  \v
+  \j
+  \ø
+  \w
+  \q
+  \i
+  \z
+  \c
+  \p
+  \p
+  \m
+  \f
+  \æ
+  \i
+  \w
+  \r
+  \w
+  \c
+  \y
+  \u
+  \æ
+  \r
+  \b
+  \w
+  \a
+  \s
+  \o
+  \l
+  \n
+  \u
+  \r
+  \n
+  \b
+  \h
+  \e
+  \o
+  \a
+  \u
+  \r
+  \r
+  \p
+  ...]
+ [\g
+  \j
+  \l
+  \w
+  \o
+  \l
+  \o
+  \n
+  \e
+  \r
+  \ø
+  \æ
+  \o
+  \w
+  \t
+  \å
+  \m
+  \s
+  \ø
+  \v
+  \j
+  \å
+  \s
+  \w
+  \æ
+  \e
+  \i
+  \m
+  \ø
+  \o
+  \e
+  \l
+  \l
+  \a
+  \i
+  \ø
+  \j
+  \s
+  \a
+  \k
+  \e
+  \æ
+  \u
+  \i
+  \m
+  \u
+  \t
+  \i
+  \r
+  \ø
+  ...]
+ [\å
+  \e
+  \e
+  \f
+  \u
+  \ø
+  \b
+  \q
+  \j
+  \l
+  \o
+  \u
+  \s
+  \z
+  \o
+  \g
+  \i
+  \p
+  \z
+  \n
+  \n
+  \q
+  \t
+  \g
+  \o
+  \e
+  \k
+  \m
+  \k
+  \t
+  \æ
+  \t
+  \a
+  \x
+  \o
+  \å
+  \d
+  \t
+  \s
+  \h
+  \p
+  \å
+  \a
+  \a
+  \æ
+  \i
+  \d
+  \z
+  \i
+  \x
+  ...]
+ [\e
+  \z
+  \æ
+  \v
+  \q
+  \s
+  \f
+  \x
+  \a
+  \å
+  \x
+  \l
+  \v
+  \o
+  \a
+  \q
+  \ø
+  \l
+  \y
+  \z
+  \o
+  \o
+  \x
+  \m
+  \r
+  \k
+  \r
+  \h
+  \b
+  \å
+  \c
+  \u
+  \x
+  \æ
+  \m
+  \o
+  \w
+  \g
+  \t
+  \q
+  \d
+  \e
+  \w
+  \n
+  \b
+  \g
+  \b
+  \v
+  \v
+  \q
+  ...]
+ [\q
+  \k
+  \x
+  \y
+  \w
+  \c
+  \o
+  \d
+  \c
+  \y
+  \e
+  \g
+  \x
+  \n
+  \x
+  \h
+  \j
+  \y
+  \b
+  \q
+  \w
+  \æ
+  \c
+  \e
+  \å
+  \p
+  \b
+  \d
+  \b
+  \a
+  \c
+  \d
+  \v
+  \q
+  \y
+  \d
+  \z
+  \d
+  \u
+  \y
+  \ø
+  \z
+  \o
+  \a
+  \ø
+  \e
+  \æ
+  \h
+  \j
+  \ø
+  ...]
+ [\u
+  \v
+  \i
+  \c
+  \n
+  \x
+  \k
+  \å
+  \f
+  \r
+  \f
+  \g
+  \b
+  \u
+  \n
+  \y
+  \f
+  \k
+  \e
+  \q
+  \r
+  \j
+  \p
+  \l
+  \b
+  \u
+  \h
+  \m
+  \t
+  \l
+  \o
+  \h
+  \j
+  \o
+  \r
+  \å
+  \p
+  \ø
+  \e
+  \f
+  \l
+  \x
+  \å
+  \z
+  \æ
+  \q
+  \n
+  \i
+  \q
+  \u
+  ...]
+ [\u
+  \c
+  \æ
+  \c
+  \æ
+  \a
+  \m
+  \ø
+  \y
+  \t
+  \v
+  \u
+  \z
+  \j
+  \å
+  \h
+  \p
+  \y
+  \s
+  \z
+  \l
+  \w
+  \m
+  \ø
+  \d
+  \q
+  \e
+  \r
+  \l
+  \j
+  \u
+  \j
+  \a
+  \h
+  \n
+  \ø
+  \q
+  \r
+  \ø
+  \k
+  \v
+  \m
+  \l
+  \i
+  \a
+  \w
+  \v
+  \u
+  \l
+  \j
+  ...]
+ [\u
+  \l
+  \z
+  \c
+  \t
+  \q
+  \h
+  \i
+  \h
+  \o
+  \n
+  \i
+  \m
+  \j
+  \b
+  \y
+  \l
+  \u
+  \q
+  \ø
+  \g
+  \n
+  \t
+  \w
+  \o
+  \v
+  \r
+  \c
+  \m
+  \i
+  \w
+  \h
+  \b
+  \h
+  \å
+  \ø
+  \d
+  \t
+  \w
+  \m
+  \z
+  \c
+  \æ
+  \m
+  \g
+  \ø
+  \y
+  \u
+  \h
+  \a
+  ...]
+ [\i
+  \k
+  \c
+  \w
+  \m
+  \h
+  \å
+  \w
+  \å
+  \o
+  \x
+  \q
+  \n
+  \s
+  \n
+  \n
+  \g
+  \v
+  \y
+  \e
+  \l
+  \r
+  \m
+  \n
+  \m
+  \r
+  \y
+  \i
+  \k
+  \d
+  \t
+  \æ
+  \q
+  \p
+  \h
+  \c
+  \ø
+  \i
+  \p
+  \æ
+  \p
+  \w
+  \b
+  \p
+  \d
+  \æ
+  \c
+  \m
+  \b
+  \h
+  ...]
+ [\w
+  \v
+  \t
+  \s
+  \f
+  \ø
+  \i
+  \n
+  \z
+  \c
+  \h
+  \j
+  \n
+  \z
+  \d
+  \h
+  \ø
+  \a
+  \o
+  \z
+  \a
+  \o
+  \m
+  \a
+  \z
+  \s
+  \æ
+  \x
+  \m
+  \ø
+  \i
+  \v
+  \q
+  \c
+  \k
+  \h
+  \w
+  \y
+  \l
+  \p
+  \g
+  \å
+  \a
+  \s
+  \z
+  \ø
+  \f
+  \e
+  \ø
+  \v
+  ...]
+ [\f
+  \v
+  \æ
+  \q
+  \n
+  \w
+  \i
+  \s
+  \m
+  \å
+  \j
+  \b
+  \p
+  \x
+  \i
+  \d
+  \q
+  \h
+  \m
+  \a
+  \s
+  \m
+  \j
+  \o
+  \y
+  \å
+  \æ
+  \p
+  \æ
+  \u
+  \å
+  \x
+  \h
+  \p
+  \d
+  \v
+  \s
+  \n
+  \å
+  \w
+  \j
+  \f
+  \j
+  \b
+  \j
+  \ø
+  \l
+  \æ
+  \v
+  \å
+  ...]
+ [\l
+  \w
+  \n
+  \k
+  \q
+  \n
+  \s
+  \æ
+  \k
+  \å
+  \m
+  \a
+  \k
+  \j
+  \h
+  \e
+  \w
+  \i
+  \y
+  \æ
+  \e
+  \o
+  \h
+  \u
+  \b
+  \y
+  \q
+  \i
+  \h
+  \x
+  \z
+  \u
+  \u
+  \i
+  \s
+  \ø
+  \i
+  \t
+  \l
+  \l
+  \u
+  \j
+  \l
+  \q
+  \u
+  \w
+  \m
+  \ø
+  \m
+  \d
+  ...]
+ [\h
+  \x
+  \f
+  \m
+  \a
+  \w
+  \x
+  \n
+  \r
+  \ø
+  \y
+  \g
+  \n
+  \v
+  \n
+  \r
+  \o
+  \w
+  \k
+  \u
+  \y
+  \g
+  \c
+  \a
+  \q
+  \k
+  \f
+  \r
+  \d
+  \p
+  \g
+  \l
+  \n
+  \m
+  \l
+  \æ
+  \ø
+  \h
+  \w
+  \w
+  \h
+  \e
+  \m
+  \k
+  \a
+  \z
+  \h
+  \v
+  \r
+  \z
+  ...]
+ [\t
+  \r
+  \x
+  \å
+  \ø
+  \n
+  \z
+  \å
+  \n
+  \p
+  \k
+  \j
+  \v
+  \j
+  \p
+  \n
+  \k
+  \æ
+  \v
+  \w
+  \n
+  \g
+  \h
+  \n
+  \e
+  \b
+  \o
+  \l
+  \m
+  \u
+  \s
+  \a
+  \w
+  \a
+  \å
+  \p
+  \l
+  \c
+  \å
+  \j
+  \v
+  \å
+  \i
+  \x
+  \v
+  \x
+  \b
+  \b
+  \k
+  \a
+  ...]
+ [\n
+  \r
+  \d
+  \æ
+  \t
+  \æ
+  \z
+  \æ
+  \d
+  \i
+  \k
+  \æ
+  \y
+  \m
+  \ø
+  \r
+  \m
+  \v
+  \t
+  \m
+  \u
+  \å
+  \ø
+  \æ
+  \m
+  \r
+  \f
+  \ø
+  \z
+  \n
+  \x
+  \å
+  \å
+  \k
+  \n
+  \æ
+  \g
+  \b
+  \d
+  \v
+  \i
+  \z
+  \v
+  \n
+  \h
+  \p
+  \h
+  \b
+  \æ
+  \r
+  ...]
+ [\g
+  \y
+  \l
+  \a
+  \ø
+  \f
+  \f
+  \a
+  \e
+  \l
+  \x
+  \w
+  \e
+  \i
+  \v
+  \n
+  \o
+  \l
+  \a
+  \w
+  \e
+  \f
+  \w
+  \w
+  \v
+  \t
+  \x
+  \y
+  \ø
+  \i
+  \z
+  \h
+  \w
+  \u
+  \k
+  \l
+  \n
+  \h
+  \e
+  \r
+  \b
+  \å
+  \m
+  \z
+  \z
+  \v
+  \l
+  \l
+  \q
+  \i
+  ...]
+ [\y
+  \n
+  \a
+  \å
+  \m
+  \j
+  \y
+  \d
+  \å
+  \d
+  \q
+  \ø
+  \x
+  \q
+  \o
+  \y
+  \e
+  \s
+  \e
+  \b
+  \x
+  \w
+  \ø
+  \n
+  \q
+  \c
+  \m
+  \n
+  \r
+  \c
+  \p
+  \d
+  \k
+  \e
+  \r
+  \x
+  \l
+  \u
+  \d
+  \c
+  \m
+  \w
+  \k
+  \d
+  \k
+  \u
+  \d
+  \q
+  \c
+  \g
+  ...]
+ [\y
+  \å
+  \d
+  \n
+  \b
+  \n
+  \j
+  \p
+  \o
+  \f
+  \t
+  \l
+  \l
+  \q
+  \w
+  \p
+  \o
+  \o
+  \d
+  \o
+  \q
+  \n
+  \ø
+  \g
+  \i
+  \q
+  \h
+  \ø
+  \å
+  \s
+  \q
+  \æ
+  \j
+  \w
+  \a
+  \d
+  \i
+  \r
+  \å
+  \æ
+  \f
+  \l
+  \w
+  \m
+  \d
+  \x
+  \y
+  \a
+  \s
+  \h
+  ...]
+ [\i
+  \v
+  \i
+  \v
+  \j
+  \h
+  \r
+  \v
+  \y
+  \x
+  \a
+  \j
+  \a
+  \u
+  \w
+  \p
+  \å
+  \d
+  \w
+  \x
+  \a
+  \c
+  \j
+  \w
+  \å
+  \e
+  \q
+  \f
+  \t
+  \d
+  \m
+  \n
+  \k
+  \h
+  \q
+  \x
+  \m
+  \d
+  \s
+  \t
+  \å
+  \c
+  \p
+  \æ
+  \å
+  \v
+  \r
+  \æ
+  \x
+  \i
+  ...]
+ [\u
+  \z
+  \m
+  \t
+  \g
+  \r
+  \p
+  \r
+  \æ
+  \e
+  \w
+  \ø
+  \e
+  \w
+  \w
+  \ø
+  \b
+  \m
+  \æ
+  \a
+  \m
+  \æ
+  \u
+  \b
+  \h
+  \o
+  \w
+  \v
+  \f
+  \g
+  \å
+  \æ
+  \s
+  \c
+  \j
+  \u
+  \z
+  \h
+  \l
+  \v
+  \t
+  \x
+  \æ
+  \a
+  \q
+  \l
+  \q
+  \e
+  \w
+  \f
+  ...]
+ [\j
+  \å
+  \u
+  \v
+  \t
+  \g
+  \s
+  \w
+  \m
+  \q
+  \å
+  \o
+  \u
+  \p
+  \n
+  \d
+  \e
+  \j
+  \u
+  \a
+  \i
+  \å
+  \w
+  \a
+  \n
+  \f
+  \r
+  \d
+  \r
+  \v
+  \y
+  \s
+  \c
+  \q
+  \l
+  \p
+  \t
+  \s
+  \f
+  \e
+  \j
+  \i
+  \r
+  \c
+  \c
+  \p
+  \ø
+  \f
+  \w
+  \z
+  ...]
+ [\s
+  \æ
+  \t
+  \y
+  \u
+  \i
+  \i
+  \e
+  \h
+  \r
+  \p
+  \b
+  \m
+  \u
+  \c
+  \r
+  \c
+  \s
+  \æ
+  \o
+  \p
+  \z
+  \k
+  \q
+  \z
+  \w
+  \æ
+  \æ
+  \e
+  \x
+  \x
+  \k
+  \n
+  \a
+  \e
+  \d
+  \m
+  \q
+  \o
+  \s
+  \o
+  \n
+  \n
+  \k
+  \r
+  \x
+  \r
+  \y
+  \i
+  \m
+  ...]
+ [\o
+  \r
+  \l
+  \s
+  \c
+  \w
+  \d
+  \f
+  \t
+  \j
+  \c
+  \g
+  \i
+  \o
+  \v
+  \e
+  \j
+  \j
+  \x
+  \o
+  \j
+  \å
+  \d
+  \æ
+  \b
+  \c
+  \r
+  \c
+  \f
+  \ø
+  \o
+  \æ
+  \t
+  \e
+  \w
+  \ø
+  \c
+  \f
+  \ø
+  \n
+  \p
+  \t
+  \n
+  \a
+  \z
+  \w
+  \e
+  \u
+  \e
+  \u
+  ...]
+ [\f
+  \d
+  \f
+  \k
+  \q
+  \z
+  \t
+  \g
+  \o
+  \u
+  \v
+  \o
+  \m
+  \e
+  \q
+  \b
+  \j
+  \m
+  \s
+  \f
+  \ø
+  \x
+  \z
+  \n
+  \æ
+  \h
+  \æ
+  \u
+  \d
+  \w
+  \z
+  \r
+  \r
+  \j
+  \z
+  \m
+  \t
+  \l
+  \h
+  \z
+  \j
+  \h
+  \r
+  \ø
+  \s
+  \q
+  \u
+  \f
+  \f
+  \å
+  ...]
+ [\a
+  \w
+  \m
+  \k
+  \k
+  \a
+  \x
+  \m
+  \ø
+  \a
+  \z
+  \v
+  \k
+  \i
+  \y
+  \c
+  \g
+  \b
+  \a
+  \o
+  \o
+  \u
+  \j
+  \a
+  \t
+  \t
+  \u
+  \b
+  \y
+  \u
+  \a
+  \å
+  \i
+  \a
+  \å
+  \f
+  \l
+  \f
+  \v
+  \j
+  \g
+  \k
+  \z
+  \b
+  \g
+  \h
+  \v
+  \f
+  \r
+  \ø
+  ...]
+ [\c
+  \f
+  \c
+  \x
+  \a
+  \c
+  \w
+  \l
+  \n
+  \w
+  \y
+  \l
+  \æ
+  \d
+  \y
+  \l
+  \t
+  \u
+  \å
+  \t
+  \f
+  \å
+  \g
+  \æ
+  \e
+  \w
+  \å
+  \s
+  \d
+  \v
+  \r
+  \p
+  \ø
+  \å
+  \m
+  \s
+  \e
+  \æ
+  \f
+  \ø
+  \m
+  \å
+  \q
+  \u
+  \a
+  \å
+  \j
+  \p
+  \b
+  \r
+  ...]
+ [\a
+  \a
+  \u
+  \t
+  \o
+  \i
+  \e
+  \n
+  \w
+  \y
+  \z
+  \y
+  \g
+  \v
+  \a
+  \æ
+  \a
+  \k
+  \w
+  \i
+  \ø
+  \l
+  \h
+  \q
+  \u
+  \t
+  \n
+  \h
+  \x
+  \q
+  \x
+  \g
+  \i
+  \å
+  \f
+  \h
+  \o
+  \s
+  \h
+  \o
+  \y
+  \x
+  \i
+  \u
+  \l
+  \ø
+  \l
+  \j
+  \f
+  \i
+  ...]
+ [\n
+  \i
+  \æ
+  \m
+  \v
+  \ø
+  \e
+  \w
+  \h
+  \i
+  \r
+  \w
+  \g
+  \n
+  \x
+  \f
+  \q
+  \b
+  \g
+  \n
+  \o
+  \o
+  \k
+  \s
+  \z
+  \p
+  \v
+  \z
+  \f
+  \g
+  \b
+  \x
+  \ø
+  \d
+  \l
+  \g
+  \r
+  \k
+  \s
+  \z
+  \d
+  \u
+  \a
+  \y
+  \i
+  \o
+  \n
+  \k
+  \y
+  \u
+  ...]
+ [\s
+  \p
+  \n
+  \e
+  \k
+  \n
+  \o
+  \å
+  \d
+  \z
+  \v
+  \i
+  \p
+  \y
+  \h
+  \g
+  \a
+  \l
+  \ø
+  \r
+  \c
+  \h
+  \t
+  \d
+  \y
+  \i
+  \b
+  \j
+  \ø
+  \m
+  \å
+  \æ
+  \k
+  \d
+  \x
+  \a
+  \æ
+  \w
+  \m
+  \h
+  \x
+  \y
+  \k
+  \p
+  \u
+  \o
+  \v
+  \s
+  \h
+  \u
+  ...]
+ [\p
+  \m
+  \g
+  \h
+  \ø
+  \e
+  \d
+  \ø
+  \j
+  \q
+  \k
+  \u
+  \j
+  \r
+  \b
+  \w
+  \i
+  \w
+  \b
+  \p
+  \ø
+  \g
+  \t
+  \c
+  \q
+  \h
+  \e
+  \k
+  \c
+  \h
+  \w
+  \v
+  \s
+  \d
+  \ø
+  \k
+  \æ
+  \f
+  \æ
+  \t
+  \g
+  \a
+  \j
+  \å
+  \n
+  \q
+  \r
+  \d
+  \n
+  \i
+  ...]
+ [\i
+  \s
+  \s
+  \o
+  \p
+  \i
+  \u
+  \n
+  \p
+  \n
+  \o
+  \t
+  \p
+  \t
+  \b
+  \s
+  \c
+  \c
+  \l
+  \z
+  \j
+  \z
+  \d
+  \k
+  \h
+  \k
+  \b
+  \p
+  \t
+  \j
+  \e
+  \w
+  \e
+  \p
+  \w
+  \r
+  \p
+  \n
+  \å
+  \ø
+  \d
+  \k
+  \u
+  \u
+  \p
+  \z
+  \ø
+  \t
+  \z
+  \u
+  ...]
+ [\c
+  \ø
+  \q
+  \å
+  \ø
+  \c
+  \u
+  \e
+  \d
+  \u
+  \b
+  \d
+  \j
+  \o
+  \o
+  \z
+  \o
+  \s
+  \o
+  \b
+  \f
+  \f
+  \c
+  \b
+  \b
+  \l
+  \w
+  \ø
+  \d
+  \r
+  \z
+  \v
+  \c
+  \l
+  \h
+  \w
+  \q
+  \b
+  \o
+  \ø
+  \q
+  \h
+  \u
+  \w
+  \n
+  \å
+  \s
+  \v
+  \o
+  \y
+  ...]
+ ...]
+clj::dag03.alternativ=> 
+#'dag03.alternativ/diags1
+clj::dag03.alternativ=> 
+#'dag03.alternativ/diags2
+clj::dag03.alternativ=> 
+#'dag03.alternativ/verts
+clj::dag03.alternativ=> 
+#'dag03.alternativ/al
+clj::dag03.alternativ=> 
+#'dag03.alternativ/found?
+clj::dag03.alternativ=> 
+#'dag03.alternativ/m
+clj::dag03.alternativ=> 
+Missings:  askepott,marsipangris,pinnekjøtt
+nil
+clj::dag03.alternativ=> m
+("marsipangris" "pinnekjøtt" "askepott")
+clj::dag03.alternativ=> 
+; Execution error (ArityException) at dag03.core/eval48451 (form-init790191329321827554.clj:132).
+; Wrong number of args (3) passed to: dag03.core/nth-2d
+dag03.core/eval48451 (form-init790191329321827554.clj:132)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+\e
+clj::dag03.core=> 
+; Execution error (IllegalArgumentException) at dag03.core/eval48521 (form-init790191329321827554.clj:133).
+; Don't know how to create ISeq from: java.lang.Long
+clojure.lang.RT/seqFrom (RT.java:553)
+clojure.lang.RT/seq (RT.java:533)
+clojure.core/seq (core.clj:137)
+clojure.core/get-in (core.clj:6142)
+dag03.core/eval48521 (form-init790191329321827554.clj:133)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+\e
+clj::dag03.core=> 
+\e
+clj::dag03.core=> 
+#'dag03.core/nth-2d
+clj::dag03.core=> 
+; Execution error (IllegalArgumentException) at dag03.core/nth-2d (form-init790191329321827554.clj:58).
+; Don't know how to create ISeq from: java.lang.Integer
+clojure.lang.RT/seqFrom (RT.java:553)
+clojure.lang.RT/seq (RT.java:533)
+clojure.core/seq (core.clj:137)
+clojure.core/get-in (core.clj:6142)
+dag03.core/nth-2d (form-init790191329321827554.clj:58)
+dag03.core/nth-2d (form-init790191329321827554.clj:56)
+dag03.core/eval48598 (form-init790191329321827554.clj:131)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+#'dag03.core/nth-2d
+clj::dag03.core=> 
+\e
+clj::dag03.core=> 
+"Elapsed time: 0.0354 msecs"
+"Elapsed time: 0.0029 msecs"
+"Elapsed time: 295.9399 msecs"
+a"Elapsed time: 2026.2905 msecs"
+g"Elapsed time: 1509.7952 msecs"
+h"Elapsed time: 844.7797 msecs"
+j"Elapsed time: 2743.4049 msecs"
+k"Elapsed time: 1465.2416 msecs"
+l"Elapsed time: 754.7775 msecs"
+m"Elapsed time: 2078.8943 msecs"
+n"Elapsed time: 2225.4976 msecs"
+p"Elapsed time: 1861.5523 msecs"
+r"Elapsed time: 987.087 msecs"
+s"Elapsed time: 2233.7663 msecs"
+"Elapsed time: 19069.838 msecs"
+nil
+clj::dag03.core=> 
+nil
+clj::dag03.core=> 
+; Execution error (ArityException) at dag03.core/eval48745 (form-init790191329321827554.clj:134).
+; Wrong number of args (5) passed to: clojure.string/join
+dag03.core/eval48745 (form-init790191329321827554.clj:134)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+"abcd"
+clj::dag03.core=> 
