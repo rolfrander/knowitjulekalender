@@ -29,29 +29,18 @@
 (def all-directions (list east west north south south-east south-west north-east north-west))
 
 (defn move [pos 
-            dir
-            width
-            height]
+            dir]
   (let [x (int (+ (:x pos) (:x dir)))
-        y (int (+ (:y pos) (:y dir)))
-        w (int width)
-        h (int height)]
-    (if (or (< x 0) (>= x w)
-            (< y 0) (>= y h))
-      nil
-      (position. x y))))
+        y (int (+ (:y pos) (:y dir)))]
+    (position. x y)))
 
 (defn move-n [pos
               dir
               distance]
   (let [n (int distance)
         x (+ (:x pos) (* n (:x dir)))
-        y (+ (:y pos) (* n (:y dir)))
-        ]
-    (if (or (< x 0) 
-            (< y 0) )
-      nil
-      (position. x y))))
+        y (+ (:y pos) (* n (:y dir)))]
+    (position. x y)))
 
 (defn nth-2d [data
               pos]
@@ -77,21 +66,17 @@
   ;;   compare word[i] with letter at position
   ;;     if match, loop, moving one in direction
   ;;     else return nil
-  (let [word-len (int (.length word))
-        head-row ^String (first data)
-        w (int (.length head-row))
-        h (int (count data))]
+  (let [word-len (int (count word))]
     (loop [p position
            i 0]
       (if (= i word-len)
-        (list word position direction)
-        (if p
-          (if (= (nth word i)
-                 (nth-2d data p))
-            (recur (move p direction w h) (inc i))
-            nil))))))
+        word
+        (if (= (nth word i)
+               (nth-2d data p))
+          (recur (move p direction) (inc i))
+          nil)))))
 
-(defn indexed-search-from-positions [data words positions]
+(defn indexed-search-from-positions-slow [data words positions]
   ; for hver posisjon
   ;  - for hvert ord
   ;     - for hver retning (s, se, e, ne, n, osv)
@@ -110,52 +95,74 @@
         :when (not-empty pos-match)]
     pos-match))
 
+(defn indexed-search-from-positions [data words positions]
+  ; for hver posisjon
+  ;  - for hvert ord
+  ;     - for hver retning (s, se, e, ne, n, osv)
+  ;        - finnes w i denne posisjonen og i denne retningen?
+  ;           => samle w, pos og retning 
+  (for [p positions]
+    (for [w words]
+      (for [d all-directions
+            :let [match (match-from-position data w p d)]
+            :when match]
+        match))))
+
+(defn indexed-search-from-positions [data words positions]
+  ; for hver posisjon
+  ;  - for hvert ord
+  ;     - for hver retning (s, se, e, ne, n, osv)
+  ;        - finnes w i denne posisjonen og i denne retningen?
+  ;           => samle w, pos og retning 
+  (for [p positions]
+    (filter 
+     (fn [w]
+       (some #(match-from-position data w p %) 
+             all-directions)
+       )
+     words)))
+
+
 (defn make-word-idx [words]
   (reduce (fn [idx word] (update idx (first word) conj word))
           nil words))
 
 
 (defn indexed-search [data words]
-  (let [word-idx   (time (doall (make-word-idx words)))
-        letters    (time (doall (keys word-idx)))
-        letter-idx (time (doall (index data letters)))]
-    (mapcat identity 
-            (for [l letters
-                  :let [words (get word-idx l)
-                        positions (get letter-idx l)]]
-              (do (print l)
-                  (time (doall (indexed-search-from-positions data words positions))))))))
+  (let [word-idx    (make-word-idx words)
+        letters     (keys word-idx)
+        letter-idx  (index data letters)]
+    (for [l letters
+          :let [words (get word-idx l)
+                positions (get letter-idx l)]]
+      (indexed-search-from-positions data words positions))))
 
 (comment
 
-(nth-2d data (position. 45 67))
-(get-in data [-67 45])
-
-(clojure.string/join '(\a \b nil \c \d))
-  
 (let [words ["julestjerne" "julebrus" "jesusbarnet" "juletre" "julestrømpe"]
       positions (list (position. 865 734)
                       (position. 798 657)
                       (position. 690 476)
                       (position. 439 192))]
-  (time  (doall (indexed-search-from-positions data words positions))))
+  (time  (flatten (doall (indexed-search-from-positions data words positions)))))
+
+(time (dotimes [i 1000] 
+        (some #(match-from-position data "jesusbarnet" (position. 865 734) %)
+              all-directions)))
   
-(set! *warn-on-reflection* true)
+(time 
+ (let [result (flatten (indexed-search data ordliste))]
+   (clojure.string/join "," (sort (for [o ordliste
+                                        :when (not (some #(= o %) result))]
+                                    o)))))
 
-(time (do 
-        (doall (index data (keys (make-word-idx ordliste))))
-        nil))
-
-(time (do (def result (doall (indexed-search data ordliste)))
-          nil))
-
-(let [result (time (doall (indexed-search data ordliste)))
-      destructured-result (seq (doall (for [element result
-                                            :let [word (first (first (first element)))]]
-                                        word)))]
-  (sort (for [o ordliste
-              :when (not (some #(= o %) destructured-result))]
-          o)))
+  (let [result (time (doall (indexed-search data ordliste)))
+        destructured-result (seq (doall (for [element result
+                                              :let [word (first (first (first element)))]]
+                                          word)))]
+    (sort (for [o ordliste
+                :when (not (some #(= o %) destructured-result))]
+            o))))
 
 (indexed-search-from-positions data ordliste (list (position. 480 390) (position. 798 657)))
 

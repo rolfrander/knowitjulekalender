@@ -3519,3 +3519,735 @@ java.lang.Thread/run (Thread.java:834)
 clj::dag03.core=> 
 "abcd"
 clj::dag03.core=> 
+#'dag03.core/move
+clj::dag03.core=> 
+#'dag03.core/move-n
+clj::dag03.core=> 
+#'dag03.core/match-from-position
+clj::dag03.core=> 
+"Elapsed time: 0.0341 msecs"
+"Elapsed time: 0.0035 msecs"
+"Elapsed time: 305.0549 msecs"
+a"Elapsed time: 1397.8943 msecs"
+g"Elapsed time: 901.8627 msecs"
+h"Elapsed time: 464.7805 msecs"
+j"Elapsed time: 1873.7288 msecs"
+k"Elapsed time: 916.2384 msecs"
+l"Elapsed time: 495.8271 msecs"
+m"Elapsed time: 1445.8162 msecs"
+n"Elapsed time: 1385.4812 msecs"
+p"Elapsed time: 921.135 msecs"
+r"Elapsed time: 451.1456 msecs"
+s"Elapsed time: 1364.1144 msecs"
+"Elapsed time: 11929.8526 msecs"
+nil
+clj::dag03.core=> 
+#'dag03.core/match-from-position
+clj::dag03.core=> 
+"Elapsed time: 0.0626 msecs"
+"Elapsed time: 0.0023 msecs"
+"Elapsed time: 353.1498 msecs"
+a"Elapsed time: 1433.8044 msecs"
+g"Elapsed time: 909.9834 msecs"
+h"Elapsed time: 462.875 msecs"
+j"Elapsed time: 1764.0432 msecs"
+k"Elapsed time: 956.4098 msecs"
+l"Elapsed time: 516.9921 msecs"
+m"Elapsed time: 1364.9461 msecs"
+n"Elapsed time: 1406.873 msecs"
+p"Elapsed time: 886.0821 msecs"
+r"Elapsed time: 469.4462 msecs"
+s"Elapsed time: 1370.9859 msecs"
+"Elapsed time: 11902.1854 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.7524 msecs"
+(((("jesusbarnet" {:x 865, :y 734} {:x -1, :y 0})))
+ ((("julestjerne" {:x 798, :y 657} {:x 1, :y 0})))
+ ((("juletre" {:x 690, :y 476} {:x 1, :y -1})))
+ ((("julestrømpe" {:x 439, :y 192} {:x -1, :y -1}))))
+clj::dag03.core=> 
+true
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+"Elapsed time: 0.0926 msecs"
+"Elapsed time: 0.0041 msecs"
+"Elapsed time: 283.1292 msecs"
+a 34588 
+"Elapsed time: 1272.1629 msecs"
+g 34477 
+"Elapsed time: 926.236 msecs"
+h 34596 
+"Elapsed time: 450.3041 msecs"
+j 34160 
+"Elapsed time: 1706.2755 msecs"
+k 34429 
+"Elapsed time: 821.6137 msecs"
+l 34411 
+"Elapsed time: 435.2924 msecs"
+m 34387 
+"Elapsed time: 1259.9082 msecs"
+n 34658 
+"Elapsed time: 1253.7396 msecs"
+p 34399 
+"Elapsed time: 859.6458 msecs"
+r 34583 
+"Elapsed time: 433.6519 msecs"
+s 34590 
+"Elapsed time: 1282.489 msecs"
+"Elapsed time: 11007.3767 msecs"
+nil
+clj::dag03.core=> 
+#'dag03.core/indexed-search-from-positions
+clj::dag03.core=> 
+"Elapsed time: 0.0538 msecs"
+"Elapsed time: 0.0047 msecs"
+"Elapsed time: 257.7044 msecs"
+a 34588 
+"Elapsed time: 11.3452 msecs"
+g 34477 
+"Elapsed time: 14.3324 msecs"
+h 34596 
+"Elapsed time: 11.0703 msecs"
+j 34160 
+"Elapsed time: 14.082 msecs"
+k 34429 
+"Elapsed time: 10.1127 msecs"
+l 34411 
+"Elapsed time: 14.1419 msecs"
+m 34387 
+"Elapsed time: 7.5526 msecs"
+n 34658 
+"Elapsed time: 11.5995 msecs"
+p 34399 
+"Elapsed time: 11.0653 msecs"
+r 34583 
+"Elapsed time: 10.4208 msecs"
+s 34590 
+"Elapsed time: 9.0279 msecs"
+"Elapsed time: 579.2927 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.0317 msecs"
+"Elapsed time: 0.0029 msecs"
+"Elapsed time: 287.7766 msecs"
+a 34588 
+"Elapsed time: 7.3473 msecs"
+g 34477 
+"Elapsed time: 7.596 msecs"
+h 34596 
+"Elapsed time: 7.3157 msecs"
+j 34160 
+"Elapsed time: 8.9935 msecs"
+k 34429 
+"Elapsed time: 13.7396 msecs"
+l 34411 
+"Elapsed time: 11.7205 msecs"
+m 34387 
+"Elapsed time: 10.0803 msecs"
+n 34658 
+"Elapsed time: 8.0716 msecs"
+p 34399 
+"Elapsed time: 11.5257 msecs"
+r 34583 
+"Elapsed time: 10.6991 msecs"
+s 34590 
+"Elapsed time: 107.5097 msecs"
+"Elapsed time: 676.3841 msecs"
+nil
+clj::dag03.core=> 
+#'dag03.core/match-from-position
+clj::dag03.core=> 
+"Elapsed time: 0.0313 msecs"
+"Elapsed time: 0.0037 msecs"
+"Elapsed time: 301.0157 msecs"
+a 34588 
+"Elapsed time: 8.9256 msecs"
+g 34477 
+"Elapsed time: 8.1609 msecs"
+h 34596 
+"Elapsed time: 6.5612 msecs"
+j 34160 
+"Elapsed time: 6.475 msecs"
+k 34429 
+"Elapsed time: 6.4153 msecs"
+l 34411 
+"Elapsed time: 8.2981 msecs"
+m 34387 
+"Elapsed time: 8.0297 msecs"
+n 34658 
+"Elapsed time: 11.19 msecs"
+p 34399 
+"Elapsed time: 13.6561 msecs"
+r 34583 
+"Elapsed time: 14.6649 msecs"
+s 34590 
+"Elapsed time: 11.8118 msecs"
+"Elapsed time: 653.5667 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.0352 msecs"
+"Elapsed time: 0.0034 msecs"
+"Elapsed time: 324.6005 msecs"
+a 34588 
+"Elapsed time: 7.7319 msecs"
+g 34477 
+"Elapsed time: 6.9688 msecs"
+h 34596 
+"Elapsed time: 9.9395 msecs"
+j 34160 
+"Elapsed time: 7.342 msecs"
+k 34429 
+"Elapsed time: 42.1362 msecs"
+l 34411 
+"Elapsed time: 6.3329 msecs"
+m 34387 
+"Elapsed time: 6.3655 msecs"
+n 34658 
+"Elapsed time: 6.3681 msecs"
+p 34399 
+"Elapsed time: 6.262 msecs"
+r 34583 
+"Elapsed time: 5.927 msecs"
+s 34590 
+"Elapsed time: 39.2956 msecs"
+"Elapsed time: 616.3516 msecs"
+nil
+clj::dag03.core=> 
+((() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ (() () ())
+ ...)
+clj::dag03.core=> 
+("adventskalender"
+ "akevitt"
+ "grevinne"
+ "gløggkos"
+ "hovmester"
+ "jesusbarnet"
+ "julestjerne"
+ "juletre"
+ "julestrømpe"
+ "klementin"
+ "krampus"
+ "lutefisk"
+ "mandel"
+ "medisterkake"
+ "nisseverksted"
+ "nordpolen"
+ "nellik"
+ "pepperkake"
+ "rudolf"
+ "sledespor"
+ "sølvgutt"
+ "svineribbe")
+clj::dag03.core=> 
+("adventskalender"
+ "akevitt"
+ "grevinne"
+ "gløggkos"
+ "hovmester"
+ "jesusbarnet"
+ "julestjerne"
+ "juletre"
+ "julestrømpe"
+ "klementin"
+ "krampus"
+ "lutefisk"
+ "mandel"
+ "medisterkake"
+ "nisseverksted"
+ "nordpolen"
+ "nellik"
+ "pepperkake"
+ "rudolf"
+ "sledespor"
+ "sølvgutt"
+ "svineribbe")
+clj::dag03.core=> 
+"Elapsed time: 0.0411 msecs"
+"Elapsed time: 0.0042 msecs"
+"Elapsed time: 285.195 msecs"
+a 34588 
+"Elapsed time: 8.3138 msecs"
+g 34477 
+"Elapsed time: 8.5626 msecs"
+h 34596 
+"Elapsed time: 9.3099 msecs"
+j 34160 
+"Elapsed time: 9.8369 msecs"
+"Elapsed time: 352.6079 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 0.0304 msecs"
+"Elapsed time: 0.0026 msecs"
+"Elapsed time: 316.9743 msecs"
+a 34588 
+"Elapsed time: 8.1639 msecs"
+g 34477 
+"Elapsed time: 7.581 msecs"
+h 34596 
+"Elapsed time: 7.8489 msecs"
+j 34160 
+"Elapsed time: 23.189 msecs"
+"Elapsed time: 366.1601 msecs"
+nil
+clj::dag03.core=> 
+["nisseverksted"
+ "pepperkake"
+ "adventskalender"
+ "klementin"
+ "krampus"
+ "juletre"
+ "julestjerne"
+ "gløggkos"
+ "marsipangris"
+ "mandel"
+ "sledespor"
+ "nordpolen"
+ "nellik"
+ "pinnekjøtt"
+ "svineribbe"
+ "lutefisk"
+ "medisterkake"
+ "grevinne"
+ "hovmester"
+ "sølvgutt"
+ "jesusbarnet"
+ "julestrømpe"
+ "askepott"
+ "rudolf"
+ "akevitt"]
+clj::dag03.core=> 
+"Elapsed time: 0.0382 msecs"
+"Elapsed time: 0.0023 msecs"
+"Elapsed time: 304.6102 msecs"
+a 34588 
+"Elapsed time: 6.6903 msecs"
+g 34477 
+"Elapsed time: 6.6393 msecs"
+h 34596 
+"Elapsed time: 6.8767 msecs"
+j 34160 
+"Elapsed time: 6.3344 msecs"
+k 34429 
+"Elapsed time: 7.1738 msecs"
+l 34411 
+"Elapsed time: 7.9417 msecs"
+m 34387 
+"Elapsed time: 8.7675 msecs"
+n 34658 
+"Elapsed time: 6.8548 msecs"
+p 34399 
+"Elapsed time: 6.6747 msecs"
+r 34583 
+"Elapsed time: 6.6598 msecs"
+s 34590 
+"Elapsed time: 8.1273 msecs"
+"Elapsed time: 498.3785 msecs"
+nil
+clj::dag03.core=> 
+("adventskalender"
+ "akevitt"
+ "grevinne"
+ "gløggkos"
+ "hovmester"
+ "jesusbarnet"
+ "julestjerne"
+ "juletre"
+ "julestrømpe"
+ "klementin"
+ "krampus"
+ "lutefisk"
+ "mandel"
+ "medisterkake"
+ "nisseverksted"
+ "nordpolen"
+ "nellik"
+ "pepperkake"
+ "rudolf"
+ "sledespor"
+ "sølvgutt"
+ "svineribbe")
+clj::dag03.core=> 
+(adventskalender akevitt grevinne gløggkos hovmester jesusbarnet julestjerne juletre julestrømpe klementin krampus lutefisk mandel medisterkake nisseverksted nordpolen nellik pepperkake rudolf sledespor sølvgutt svineribbe)"Elapsed time: 2.0345 msecs"
+nil
+clj::dag03.core=> 
+("adventskalender"
+ "akevitt"
+ "grevinne"
+ "gløggkos"
+ "hovmester"
+ "jesusbarnet"
+ "julestjerne"
+ "juletre"
+ "julestrømpe"
+ "klementin"
+ "krampus"
+ "lutefisk"
+ "mandel"
+ "medisterkake"
+ "nisseverksted"
+ "nordpolen"
+ "nellik"
+ "pepperkake"
+ "rudolf"
+ "sledespor"
+ "sølvgutt"
+ "svineribbe")
+clj::dag03.core=> 
+"Elapsed time: 0.0346 msecs"
+"Elapsed time: 0.0028 msecs"
+"Elapsed time: 264.4231 msecs"
+a 34588 
+"Elapsed time: 11.4515 msecs"
+g 34477 
+"Elapsed time: 13.2016 msecs"
+h 34596 
+"Elapsed time: 9.8405 msecs"
+j 34160 
+"Elapsed time: 11.279 msecs"
+k 34429 
+"Elapsed time: 10.6047 msecs"
+l 34411 
+"Elapsed time: 9.7311 msecs"
+m 34387 
+"Elapsed time: 10.8533 msecs"
+n 34658 
+"Elapsed time: 12.2867 msecs"
+p 34399 
+"Elapsed time: 9.9664 msecs"
+r 34583 
+"Elapsed time: 10.3999 msecs"
+s 34590 
+"Elapsed time: 13.9263 msecs"
+"Elapsed time: 486.6107 msecs"
+nil
+clj::dag03.core=> 
+(adventskalender akevitt grevinne gløggkos hovmester jesusbarnet julestjerne juletre julestrømpe klementin krampus lutefisk mandel medisterkake nisseverksted nordpolen nellik pepperkake rudolf sledespor sølvgutt svineribbe)"Elapsed time: 12411.6655 msecs"
+nil
+clj::dag03.core=> 
+; Syntax error compiling at (core.clj:150:25).
+; Unable to resolve symbol: i in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:1020)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7101)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2824)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2829)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6346)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2824)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2829)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$IfExpr$Parser/parse (Compiler.java:2829)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$NewExpr$Parser/parse (Compiler.java:2666)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6384)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7173)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+("marsipangris" "pinnekjøtt" "askepott")
+clj::dag03.core=> 
+"askepottmarsipangrispinnekjøtt"
+clj::dag03.core=> 
+"askepott,marsipangris,pinnekjøtt"
+clj::dag03.core=> 
+"Elapsed time: 0.0348 msecs"
+"Elapsed time: 0.0029 msecs"
+"Elapsed time: 282.3722 msecs"
+a 34588 
+"Elapsed time: 11.6382 msecs"
+g 34477 
+"Elapsed time: 10.7268 msecs"
+h 34596 
+"Elapsed time: 9.9122 msecs"
+j 34160 
+"Elapsed time: 9.8262 msecs"
+k 34429 
+"Elapsed time: 6.634 msecs"
+l 34411 
+"Elapsed time: 6.107 msecs"
+m 34387 
+"Elapsed time: 7.8171 msecs"
+n 34658 
+"Elapsed time: 7.6948 msecs"
+p 34399 
+"Elapsed time: 7.5807 msecs"
+r 34583 
+"Elapsed time: 6.499 msecs"
+s 34590 
+"Elapsed time: 6.5296 msecs"
+"askepott,marsipangris,pinnekjøtt"
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+"Elapsed time: 0.1007 msecs"
+"Elapsed time: 0.0054 msecs"
+"Elapsed time: 275.1861 msecs"
+"askepott,marsipangris,pinnekjøtt"
+clj::dag03.core=> 
+#'dag03.core/indexed-search
+clj::dag03.core=> 
+"Elapsed time: 12531.6589 msecs"
+"askepott,marsipangris,pinnekjøtt"
+clj::dag03.core=> 
+(() () (345) () ())
+clj::dag03.core=> 
+(() () () ())
+clj::dag03.core=> 
+; Syntax error compiling at (core.clj:127:3).
+; Unable to resolve symbol: not-empty? in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7173)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+((345))
+clj::dag03.core=> 
+#'dag03.core/indexed-search-from-positions
+clj::dag03.core=> 
+"Elapsed time: 12360.2263 msecs"
+"askepott,marsipangris,pinnekjøtt"
+clj::dag03.core=> 
+#'dag03.core/indexed-search-from-positions
+clj::dag03.core=> 
+"Elapsed time: 11846.4465 msecs"
+"askepott,marsipangris,pinnekjøtt"
+clj::dag03.core=> 
+#'dag03.core/indexed-search-from-positions
+clj::dag03.core=> 
+"Elapsed time: 10679.475 msecs"
+"askepott,marsipangris,pinnekjøtt"
+clj::dag03.core=> 
+"Elapsed time: 0.0219 msecs"
+(("jesusbarnet") ("julestjerne") ("juletre") ("julestrømpe"))
+clj::dag03.core=> 
+#'dag03.core/indexed-search-from-positions
+clj::dag03.core=> 
+"Elapsed time: 0.4569 msecs"
+(("jesusbarnet") ("julestjerne") ("juletre") ("julestrømpe"))
+clj::dag03.core=> 
+; Syntax error reading source at (REPL:149:34).
+; No reader function for tag match-from-position
+clojure.main/repl (main.clj:410)
+clojure.main/repl (main.clj:409)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:834)
+clj::dag03.core=> 
+"jesusbarnet"
+clj::dag03.core=> 
+"Elapsed time: 0.0364 msecs"
+("jesusbarnet" "julestjerne" "juletre" "julestrømpe")
+clj::dag03.core=> (count "asdfa")
+5
+clj::dag03.core=> 
+"jesusbarnet"
+clj::dag03.core=> 
+"Elapsed time: 0.1594 msecs"
+"jesusbarnet"
+clj::dag03.core=> 
+"Elapsed time: 0.2231 msecs"
+"jesusbarnet"
+clj::dag03.core=> 
+"Elapsed time: 0.2063 msecs"
+"jesusbarnet"
+clj::dag03.core=> 
+"Elapsed time: 0.2154 msecs"
+"jesusbarnet"
+clj::dag03.core=> 
+"Elapsed time: 0.2714 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 1.2804 msecs"
+nil
+clj::dag03.core=> 
+"Elapsed time: 9.5503 msecs"
+nil
+clj::dag03.core=> 
