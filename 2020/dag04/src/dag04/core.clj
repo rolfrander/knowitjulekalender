@@ -23,31 +23,6 @@
 
 (def origo (vertex. 0 0))
 
-(defn up    [^vertex v] (vertex. (:x v) (inc (:y v))))
-(defn down  [^vertex v] (vertex. (:x v) (dec (:y v))))
-(defn left  [^vertex v] (vertex. (dec (:x v)) (:y v)))
-(defn right [^vertex v] (vertex. (inc (:x v)) (:y v)))
-
-; finne alle vertikale linjer
-(defn navigate-and-collect-vectors [input]
-  (let [input-length (count input)]
-    (loop [pos origo
-           i 0
-           return ()]
-      (if (< i input-length)
-        (case (nth input i)
-          \O ; flytt først, register etterpå
-          (let [newpos (up pos)]
-            (recur newpos (inc i) (conj return newpos)))
-          
-          \N ; registrer pos før flytt
-          (recur (down pos) (inc i) (conj return pos))
-          
-          \H (recur (right pos) (inc i) return)
-          
-          \V (recur (left pos) (inc i) return))
-        return))))
-
 ; finne alle vertikale linjer
 (defn navigate-and-collect-vectors [input]
   (let [input-length (count input)]
