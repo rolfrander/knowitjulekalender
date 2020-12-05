@@ -4251,3 +4251,4 @@ clj::dag03.core=>
 "Elapsed time: 9.5503 msecs"
 nil
 clj::dag03.core=> 
+; nREPL Connection was closed
