@@ -90,6 +90,15 @@
 
 (def values (read-value data))
 
+(reduce (fn [acc value]
+          (assoc acc value (inc (get acc value 0))))
+        {}
+        values)
+
+(reduce + values)
+;; => 124965
+(/ (- 124965 (* 11 10) 14) 127)
+
 (best-packaging 9 9 [0 54 27 81 72 54 65] 4 81)
 
 (let [data (read-value testdata2)]
