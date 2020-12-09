@@ -104,16 +104,6 @@ Nordpolen")
                           times)]
     (/ (- max min) 4.0)))
 
-(decompile (fn [data]
-             (let [[places rt] (parse-input data)]
-               (doall rt)
-               (time (reduce (fn [current next]
-                               (doseq [step (route current next)]
-                                 (doseq [point (second places)]
-                                   (distance point step)))
-                               next)
-                             rt)))))
-
 (time
  (timediff data))
 
