@@ -35,13 +35,14 @@
           (compare-pair l r) (recur (+ l 2) (- r 2) false)
           :else false)))))
 
-(with-open [in (clojure.java.io/reader "dag18-wordlist.txt")]
-  (reduce (fn [count word]
-            (if (= (is-palinstedrom word) 'palinstedrom)
-              (inc count)
-              count))
-          0
-          (line-seq in)))
+(time 
+ (with-open [in (clojure.java.io/reader "dag18-wordlist.txt")]
+   (reduce (fn [count word]
+             (if (= (is-palinstedrom word) 'palinstedrom)
+               (inc count)
+               count))
+           0
+           (line-seq in))))
 ;; => 252
 
 
