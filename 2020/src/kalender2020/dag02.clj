@@ -1,5 +1,5 @@
-(ns dag02.core
-  (:gen-class))
+(ns kalender2020.dag02
+  (:require [clojure.string :as str]))
 
 (set! *warn-on-reflection* true)
 
