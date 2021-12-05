@@ -1,6 +1,5 @@
 (ns advent2021.day02
-  (:require [clojure.java.io :as io]
-            [clojure.string :as string]
+  (:require [clojure.string :as string]
             [clojure-csv.core :as csv]))
 
 ;; point format: LON LAT in degrees
