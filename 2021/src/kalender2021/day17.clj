@@ -41,13 +41,29 @@ Maxima Viste
                    "\u00D8, \u00F8 < " ; ø
                    "\u00C5 = A\u030A, \u00E5 = a\u030A"))) ; å, enten som separat tegn. eller som a-med-ring
 
-(->> data
-     (reductions (fn [prev cur]
-                   (if (< (.compare no_NO_x prev cur) 0)
-                     cur
-                     prev)))
-     dedupe
-     (map count)
-     (apply +)
-     )
+(def alphabet " AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÆæØøÅå")
+(def ord (into {} (map-indexed #(vector %2 %1) alphabet)))
 
+(defn largest2 [^String a ^String b]
+  (letfn [(ord-idx [^String str idx]
+            (if (>= idx (.length str)) -1
+                (ord (.charAt str idx))))]
+    (loop [i 0]
+      (let [la (ord-idx a i)
+            lb (ord-idx b i)]
+        (cond
+          (= la lb) (recur (inc i))
+          (> la lb) a
+          :else b)))))
+
+(defn largest [a b] 
+  (if (> (.compare no_NO_x a b) 0) a b))
+
+(defn test [compare-fn d]
+  (->> (reductions compare-fn d)
+       dedupe
+       (map count)
+       (apply +)))
+
+(time (test largest data))
+(time (test largest2 data))
