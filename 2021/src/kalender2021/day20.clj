@@ -59,6 +59,10 @@
               (front-wall (:direction state)))
      0))
 
+(defn has-wall [maze pos dir]
+  (= (bit-and (get-in maze pos) (front-wall dir))
+     0))
+
 (defn has-escaped [maze state]
   (and (= (inc (first (:pos state))) (count maze))
        (= (inc (second (:pos state))) (count (peek maze)))))
