@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "name": "SQLite",
+            "driver": "SQLite",
+            "database": "./resources/day24.db",
+            "connectionTimeout": 15
+          }
+    ]
+}
