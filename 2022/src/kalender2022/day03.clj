@@ -39,10 +39,12 @@
 
 (defn calc-paper-from-roll [box]
   (let [all-orientations (paper-for-all-orientations box)
-        wrap-across (filter (comp (partial >= 110) first) all-orientations)]
+        wrap-across (filter (comp (partial >= 110) first) all-orientations)
+        wrap-along (filter (comp (partial >= 110) second) all-orientations)
+        wrap-along-len (first (apply min-key first wrap-along))]
     (if (empty? wrap-across)
-      (first (apply min-key first all-orientations))
-      (second (apply min-key second wrap-across)))))
+      wrap-along-len
+      (min wrap-along-len (second (apply min-key second wrap-across))))))
 
 (paper-for-all-orientations (nth test-gifts 2))
 
