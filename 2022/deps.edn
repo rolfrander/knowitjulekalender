@@ -10,6 +10,7 @@
 
         io.joshmiller/exif-processor {:mvn/version "0.3.0"}
         ;clj-exif/clj-exif {:mvn/version "0.2"}
+        com.clojure-goes-fast/clj-java-decompiler {:mvn/version "0.3.2"}
         
         org.flatland/useful {:mvn/version "0.11.6"}
         clj-http/clj-http             {:mvn/version "3.12.3"}
