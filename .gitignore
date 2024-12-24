@@ -15,3 +15,5 @@
 2021/resources/day24.db
 2022/.nrepl-port
 2024/debug.txt
+.clj-kondo/
+.lsp/
